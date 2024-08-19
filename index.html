@@ -10,23 +10,29 @@
     <title>Weather App</title>
 </head>
 <body>
-    <div class="weather-section">
+    <div class="weather-app">
     <header> 
-        <form>
-            <input type="search" placeholder="Enter a City..." required />
-            <input type="submit" value="search" />
+        <form class="search-form">
+            <input type="search" placeholder="Enter a City..." required class="search-form-input" />
+            <input type="submit" value="search" class="search-form-button"/>
     </form>
     </header>
         <main>
+            <div class="weather-app-data">
             <div>
-            <h1>Sandton</h1>
-            <p>
+            <h1 class="weather-app-city">Sandton</h1>
+            <p class="weather-app-details">
                 Thursday 11:11, Sunny day 
                 <br />
-                Humidity: 88% , Wind: 26.1km/h
+                Humidity: <strong>88%</strong>, Wind: <strong>26.1km/h</strong>
             </p>
         </div>
-         <div> 🌤️ 11°C </div>  
+        <div class="weather-app-temperature-container">
+         <div class="weather-app-icon">🌤️</div>
+         <div class="weather-app-temperature">11</div>
+         <div class="weather-app-unit">°C</div>
+        </div>
+    </div>
         </main>
 <footer>
    This project was coded by <a href="https://github.com/sandisilendhlovu" target="_blank"> Sandisile Ndhlovu</a>
