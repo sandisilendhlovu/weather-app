@@ -14,7 +14,7 @@
     <div class="weather-app">
     <header> 
         <form class="search-form" id="search-form" >
-            <input type="search" placeholder="Enter a City..." id="search-form-input"    required class="search-form-input" />
+            <input type="search" placeholder="Enter a City..." id="search-form-input" required class="search-form-input" />
             <input type="submit" value="search" class="search-form-button"/>
     </form>
     </header>
@@ -23,9 +23,9 @@
             <div>
             <h1 class="weather-app-city" id="city"></h1>
             <p class="weather-app-details">
-                Thursday 11:11, Sunny day 
+                <span id="time"></span>, <span id="description"></span>
                 <br />
-                Humidity: <strong>88%</strong>, Wind: <strong>26.1km/h</strong>
+                Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed">26.1km/h</strong>
             </p>
         </div>
         <div class="weather-app-temperature-container">
