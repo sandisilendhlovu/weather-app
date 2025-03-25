@@ -4,7 +4,7 @@ body {
 }
 
 a {
-color: #885df1;
+color: #058C8C;
 
 }
 
@@ -33,7 +33,7 @@ padding: 15px 20px;
 }
 
 .search-form-button {
-background: #885df1;
+background: #058C8C;
 padding: 15px 30px;
 border: none;
 margin-left: 5px;
@@ -66,7 +66,7 @@ font-weight: 500;
 }
 
 .weather-app-details strong{
-color: #f65283;    
+color: #123F67;    
 }
 
 .weather-app-temperature-container {
@@ -118,7 +118,7 @@ margin: 0 auto;
 
 .weather-forecast-temperatures {
 text-align: center;
-color: #f65283;  
+color: #123F67;  
 margin-top: 10px; 
 display: flex; 
 justify-content: center;
